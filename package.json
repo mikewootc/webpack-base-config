@@ -1,0 +1,8 @@
+{
+  "name": "@mikewootc/webpack-base-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mikewootc/webpack-base-config.git",
+  "author": "Mike Woo <wytabc@126.com>",
+  "license": "MIT"
+}
