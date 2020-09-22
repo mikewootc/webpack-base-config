@@ -20,6 +20,15 @@ do
             ;;
         k) # koa相关依赖
             run_items="${items} koa"
+            run_items="${items} koa-bodyparser@^4.2.1"
+            run_items="${items} koa-compress@^3.0.0"
+            run_items="${items} koa-mount@^4.0.0"
+            run_items="${items} koa-proxies@^0.8.1"
+            run_items="${items} koa-proxy@^0.9.0"
+            run_items="${items} koa-router@^7.4.0"
+            run_items="${items} koa-router-static@^1.2.0"
+            run_items="${items} koa-serve-list@^1.0.1"
+            run_items="${items} koa-static@^5.0.0"
             ;;
         s) # babel相关依赖
             dev_items="${items} style-loader@^1.1.3"

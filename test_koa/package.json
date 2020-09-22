@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "devc": "webpack --config ./webpack.config.js --watch --dev --env.PLATFORM=web",
-    "devb": "webpack --config ./webpack.config.js --dev --env.PLATFORM=web"
+    "devb": "webpack --config ./webpack.config.js --dev --env.PLATFORM=web",
+    "rlb": "webpack --config ./webpack.config.js --env.PLATFORM=web"
   },
   "license": "MIT",
   "devDependencies": {
