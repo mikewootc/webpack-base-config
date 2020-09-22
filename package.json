@@ -4,5 +4,13 @@
   "main": "index.js",
   "repository": "git@github.com:mikewootc/webpack-base-config.git",
   "author": "Mike Woo <wytabc@126.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.2"
+  }
 }
